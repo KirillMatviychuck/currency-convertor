@@ -1,0 +1,30 @@
+.header {
+  margin-top: 100px;
+  width: 750px;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1), -1px -1px 2px rgba(0, 0, 0, 0.1);
+
+  .fromBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120px;
+  }
+
+  .toBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120px;
+
+    .textField {
+      font-size: 40px;
+    }
+  }
+
+}
+
